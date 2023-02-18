@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family= Caveat & display=swap') ;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-decoration: none;
+}
+
+.fundo-botao {
+    font-family: 'Caveat', cursive;
+    background-color: aqua;  
+    display: flex;
+    gap: 5%;
+}
+.sobre-mim {
+    font-family: 'Caveat', cursive;
+    background-color: rgb(123, 0, 255);  
+    display: flex;
+    gap: 5%;
+}
+.cursos {
+    font-family: 'Caveat', cursive;
+    background-color: rgb(246, 255, 0);  
+    display: flex;
+    gap: 5%;
+}.contatos {
+    font-family: 'Caveat', cursive;
+    background-color: rgb(255, 68, 0);  
+    display: flex;
+    gap: 5%;
+}
+.projeto1 {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    background-color: rgb(68, 255, 0);  
+    display: flex;
+    gap: 5%;
+}
+.projeto2 {
+    font-family: 'Caveat', cursive;
+    background-color: rgb(255, 0, 187);  
+    display: flex;
+    gap: 5%;
+}.projeto3 {
+    font-family: 'Caveat', cursive;
+    background-color: rgb(255, 149, 0);  
+    display: flex;
+    gap: 5%;
+}
