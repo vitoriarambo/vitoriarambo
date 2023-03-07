@@ -39,6 +39,7 @@ p{
     gap: 10%;
     font-size: 30px;
     background-color: black;
+    padding-left: 10px;
 }
 
 .fundosobremim{
@@ -48,6 +49,10 @@ p{
     margin-top: 5%;
     color: white;
     background-color: rgb(252, 171, 171);
+}
+
+.fundosobremim p{
+  font-size: 30px;
 }
 
 .titulos-projetos{
