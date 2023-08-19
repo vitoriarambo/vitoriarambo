@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Potifólio Vitoria Rambo</title>
     <link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
 </head>
 <body>
     <header>
@@ -18,7 +19,6 @@
             </div>
         </nav>
     </header>
-
     <main>
         <section id="sobre-mim" class="sobre-mim">
             <div class="fundosobremim">
@@ -55,17 +55,26 @@
             </div>
        
         </section>
-       <footer id="contatos">
-            <div class="fundo-contatos">
-                <h1 class="titulos" style="font-size: 25px;">Contatos:</h1>
-                <ul>
-                    <li>Email: vitoriadasilvarambo9898@gmail.com</li>
-                    <li>Github: vitoriarambo</li>
-                    <li>Discord: abacate#7539</li>
-                </ul>
+       <footer id="contatos" >
+        <form class="fundo-contatos">
+            <div>
+                 <label for="name">nome</label>
+                <input type="text" name="name">
             </div>
+            <div>
+                <label for="email">email</label>
+                 <input type="email" name="email">
+            </div>
+            <div>
+         <textarea name="comentarios" id="comentarios"></textarea>
+            </div>
+            <div>
+                    <input type="submit" onclick="Enviar()">
+            </div>
+     
+   </form>
+ </div>
         </footer> 
     </main>
-
 </body>
 </html>
