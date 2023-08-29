@@ -113,13 +113,3 @@ input{
 h2{
   color: white;
 }
-checkbox {
-   border: none;
-  outline: none;
-}
-textarea{
-    border: none;
-  outline: none;
-  border-radius: 30px;
-  padding: 10px 30px;
-}
