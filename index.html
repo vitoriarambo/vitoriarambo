@@ -55,26 +55,19 @@
             </div>
        
         </section>
-       <footer id="contatos" >
-        <form class="fundo-contatos">
-            <div>
-                 <label for="name">nome</label>
-                <input type="text" name="name">
-            </div>
-            <div>
-                <label for="email">email</label>
-                 <input type="email" name="email">
-            </div>
-            <div>
-         <textarea name="comentarios" id="comentarios"></textarea>
-            </div>
-            <div>
-                    <input type="submit" onclick="Enviar()">
-            </div>
-     
-   </form>
- </div>
-        </footer> 
+        <footer>
+ <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>nome</label>
+            <input type="text" name="nome" placeholder="digite seu nome">
+            <label>email</label>
+            <input type="email" name="email" placeholder="digite seu email">
+            <label>mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="digite sua mensagem"> </textarea>
+            <button type="submit">enviar</button>
+            <input type="hidden" name="accessKey" value="7332e486-d52e-4bb5-93e1-deebf1a400b9">
+            <input type="hidden" name="redirectTo" value="https://example.com/contact/succe">
+        </form>
+        </footer>
     </main>
 </body>
 </html>
